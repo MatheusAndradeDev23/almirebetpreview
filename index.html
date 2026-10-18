@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Almir e Bete — beleza, cuidado e personalidade. Conheça nossos serviços e agende seu horário."
+  >
+  <meta name="theme-color" content="#210D12">
+
+  <title>Almir e Bete — Beleza com identidade</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=DM+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#inicio" aria-label="Almir e Bete — início">
+      <span>Almir <i>&</i></span>
+      <span>Bete.</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-expanded="false"
+      aria-controls="navigation"
+    >
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navigation" id="navigation" aria-label="Navegação principal">
+      <a href="#conceito">Nossa essência</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#galeria">Galeria</a>
+      <a class="nav-cta" href="#agendamento">
+        Agende seu horário <span aria-hidden="true">↗</span>
+      </a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          BELEZA, CUIDADO & PERSONALIDADE
+        </p>
+
+        <h1>
+          Sua beleza<br>
+          <span>não tem</span><br>
+          <em>fórmula.</em>
+        </h1>
+
+        <p class="hero-description">
+          Cada pessoa tem sua essência. Nosso trabalho é valorizar
+          aquilo que faz você ser único, com cuidado, técnica e
+          atenção aos detalhes. Há 23 anos cuidando de você.
+        </p>
+
+        <a class="text-link" href="#servicos">
+          Descubra nossos serviços
+          <span aria-hidden="true">↘</span>
+        </a>
+      </div>
+
+      <div class="hero-art" aria-label="Ambiente de beleza">
+        <div class="hero-photo">
+          <img
+            src="C:\Users\ma203\Pictures\Captura de tela 2026-10-18 200627.png"
+            alt="Ambiente de salão de beleza"
+            fetchpriority="high"
+          >
+        </div>
+
+        <div class="botanical-seal" aria-hidden="true">
+          <svg viewBox="0 0 200 200" role="presentation">
+            <defs>
+              <path
+                id="seal-circle"
+                d="M 100,100 m -76,0 a 76,76 0 1,1 152,0 a 76,76 0 1,1 -152,0"
+              />
+            </defs>
+            <circle cx="100" cy="100" r="88"></circle>
+            <text>
+              <textPath href="#seal-circle">
+                ALMIR E BETE · BELEZA COM IDENTIDADE ·
+              </textPath>
+            </text>
+            <path d="M100 56 C76 75 76 111 100 143 C124 111 124 75 100 56Z"></path>
+            <path d="M100 136 L100 75"></path>
+            <path d="M99 99 L82 84"></path>
+            <path d="M101 115 L119 97"></path>
+          </svg>
+        </div>
+
+        <p class="image-caption">
+          <span>01 / 03</span>
+          UM ESPAÇO PARA VOCÊ
+        </p>
+      </div>
+
+      <div class="hero-index" aria-hidden="true">
+        A & B — EST. 20__
+      </div>
+    </section>
+
+    <section class="manifesto reveal" id="conceito">
+      <p class="eyebrow">NOSSA ESSÊNCIA <span>— 01</span></p>
+
+      <div class="manifesto-content">
+        <h2>
+          Mais do que<br>
+          transformar.<br>
+          <em>Valorizar.</em>
+        </h2>
+
+        <div class="manifesto-note">
+          <span class="asterisk" aria-hidden="true">✳</span>
+          <p>
+            Acreditamos que beleza não é seguir um padrão.
+            É encontrar aquilo que combina com você e cuidar
+            de cada detalhe com intenção.
+          </p>
+          <p class="signature">Almir & Bete</p>
+        </div>
+      </div>
+
+      <div class="manifesto-line">
+        <span>ATENÇÃO AOS DETALHES</span>
+        <span>RESPEITO À SUA ESSÊNCIA</span>
+        <span>CUIDADO EM CADA ETAPA</span>
+      </div>
+    </section>
+
+    <section class="services" id="servicos">
+      <div class="services-heading reveal">
+        <p class="eyebrow">NOSSO TRABALHO <span>— 02</span></p>
+
+        <h2>Serviços <em>e valores.</em></h2>
+
+        <p>
+          Um cuidado pensado para você, com atenção à técnica
+          e ao resultado.
+        </p>
+      </div>
+
+      <div class="services-layout">
+        <div class="services-image reveal">
+          <img
+            src="C:\Users\ma203\Pictures\Captura de tela 2026-10-18 200444.png"
+            alt="Detalhes de um ambiente profissional de beleza"
+            loading="lazy"
+          >
+          <span class="photo-label">CUIDADO QUE SE PERCEBE</span>
+        </div>
+
+        <div class="service-list" id="service-list">
+          <!-- Os serviços são renderizados pelo JavaScript. -->
+        </div>
+      </div>
+
+      <p class="services-footnote">
+        * Valores iniciais de referência. Confirme os serviços,
+        os preços e as condições diretamente com o salão.
+      </p>
+    </section>
+
+    <section class="gallery reveal" id="galeria">
+      <div class="gallery-heading">
+        <p class="eyebrow">DETALHES QUE CONTAM HISTÓRIAS <span>— 03</span></p>
+        <h2>Nosso olhar.<br><em>Seu estilo.</em></h2>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-item-large">
+          <img
+            src="C:\Users\ma203\Pictures\Captura de tela 2026-10-18 200951.png"
+            alt="Retrato editorial de beleza"
+            loading="lazy"
+          >
+          <figcaption>01 - ESCOVA</figcaption>
+        </figure>
+
+        <figure class="gallery-item gallery-item-small">
+          <img
+            src="C:\Users\ma203\Pictures\Captura de tela 2026-10-18 201045.png"
+            alt="Retrato com luz natural"
+            loading="lazy"
+          >
+          <figcaption>02 - MANICURE</figcaption>
+        </figure>
+      </div>
+
+      <p class="gallery-note">
+        Beleza com personalidade. Sempre.
+      </p>
+    </section>
+
+    <section class="booking" id="agendamento">
+      <div class="booking-decoration" aria-hidden="true">A&B</div>
+
+      <div class="booking-copy reveal">
+        <p class="eyebrow">SEU MOMENTO COMEÇA AQUI <span>— 04</span></p>
+
+        <h2>
+          Vamos cuidar<br>
+          <em>de você?</em>
+        </h2>
+
+        <p>
+          Escolha seu serviço, converse com a nossa equipe
+          e encontre o melhor horário para você.
+        </p>
+
+        <a
+          class="booking-button"
+          id="booking-link"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Agende seu horário
+          <span aria-hidden="true">↗</span>
+        </a>
+
+        <p class="booking-small">
+          Atendimento mediante confirmação de disponibilidade.
+        </p>
+      </div>
+
+      <div class="booking-aside">
+        <span class="booking-aside-number">A / B</span>
+        <span>BELEZA FEITA COM INTENÇÃO.</span>
+      </div>
+    </section>
+  </main>
+
+<section class="location-section reveal" id="localizacao">
+  <div class="location-heading">
+    <p class="eyebrow">
+      COMO NOS ENCONTRAR <span>— 05</span>
+    </p>
+
+    <h2>
+      Estamos<br>
+      <em>por perto.</em>
+    </h2>
+
+    <p class="location-description">
+      Um espaço de cuidado e beleza esperando por você
+      na Cidade das Flores, em Osasco.
+    </p>
+
+    <div class="location-address">
+      <span class="location-pin" aria-hidden="true">↗</span>
+
+      <div>
+        <strong>Almir e Bete</strong>
+        <p>
+          Av. Pau Brasil, 169 — Cidade das Flores<br>
+          Osasco — SP, 06184-010, Brasil
+        </p>
+      </div>
+    </div>
+
+    <a
+  class="location-button"
+  href="https://www.google.com/maps/dir/?api=1&destination=Av.+Pau+Brasil,+169,+Cidade+das+Flores,+Osasco,+SP,+06184-010,+Brasil"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Abrir rota no Google Maps
+  <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+
+  <div class="location-map">
+    <iframe
+  title="Localização do salão Almir e Bete"
+  src="https://maps.google.com/maps?q=Av.+Pau+Brasil,+169,+Cidade+das+Flores,+Osasco,+SP,+06184-010,+Brasil&z=17&output=embed"
+  width="100%"
+  height="100%"
+  style="border: 0;"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+
+    <span class="map-caption">
+      OSASCO, SÃO PAULO · BRASIL
+    </span>
+  </div>
+</section>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#inicio">Almir <i>&</i> Bete.</a>
+
+    <p>Beleza com identidade.</p>
+
+    <a href="#inicio" class="back-top">
+      VOLTAR AO TOPO ↑
+    </a>
+
+    <span class="copyright">
+      © <span id="current-year"></span> Av. Pau Brasil - Cidade das Flores, Osasco - SP, 06184-010, Brasil
+    </span>
+  </footer>
+</body>
+</html>
