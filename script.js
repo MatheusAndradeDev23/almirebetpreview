@@ -9,7 +9,7 @@
  */
 
 const CONFIG = {
-  whatsapp: "",
+  whatsapp: "11994113424",
 
   services: [
     { name: "Corte masculino", price: 40 },
